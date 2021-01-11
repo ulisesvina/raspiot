@@ -1,7 +1,7 @@
 {
   "name": "raspiot",
   "version": "1.0.0",
-  "description": "IoT Projects powered by Raspberry Pi",
+  "description": "IoT GPIO controller powered by Raspberry Pi",
   "main": "main.js",
   "scripts": {
     "test": "nodemon ."
