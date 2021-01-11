@@ -1,0 +1,36 @@
+{
+  "name": "raspiot",
+  "version": "1.0.0",
+  "description": "IoT Projects powered by Raspberry Pi",
+  "main": "main.js",
+  "scripts": {
+    "test": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ulisesvina/raspiot.git"
+  },
+  "keywords": [
+    "raspberry",
+    "rapsberrypi",
+    "rpi",
+    "pi",
+    "iot",
+    "internetofthings",
+    "internet_of_things",
+    "ulisesvina"
+  ],
+  "author": "Ulises Viña",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ulisesvina/raspiot/issues"
+  },
+  "homepage": "https://github.com/ulisesvina/raspiot#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "rpi-gpio": "^2.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
