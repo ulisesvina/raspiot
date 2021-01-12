@@ -1,5 +1,5 @@
 module.exports = (express, app) => {
-    app.get("/", (req, res) => {
-        res.send("hello world")
-    })
+    app.get("/", (_, res) => {
+        res.render("main")
+    });
 }

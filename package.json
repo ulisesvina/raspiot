@@ -4,7 +4,9 @@
   "description": "IoT GPIO controller powered by Raspberry Pi",
   "main": "main.js",
   "scripts": {
-    "test": "nodemon ."
+    "devel": "export NODE_ENV=devel && nodemon .",
+    "deploy-local": "export NODE_ENV=prod-local && node .",
+    "deploy": "export NODE_ENV=prod && node ."
   },
   "repository": {
     "type": "git",
@@ -27,7 +29,10 @@
   },
   "homepage": "https://github.com/ulisesvina/raspiot#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
     "express": "^4.17.1",
+    "ngrok": "^3.4.0",
     "rpi-gpio": "^2.1.7"
   },
   "devDependencies": {
