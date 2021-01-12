@@ -52,6 +52,9 @@ This web application can be cloned & deployed with the NPM scripts. Here's a bri
 
 `cd raspiot`
 
+**Install the NPM dependencies**
+`npm i`
+
 **Run the NPM scripts provided, depending on the desired behavior**
 
 `npm run (script)`
