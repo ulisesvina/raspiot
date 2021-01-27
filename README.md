@@ -2,7 +2,7 @@
 
 **Raspiot** is a web application to control GPIO pins on the Raspberry Pi using a friendly UI/UX, made on Node JS.
 
-
+***DISCLAIMER:* Raspiot *doesn't* include a login-signup system, authtentication is completely on your side and Raspiot should be used solely for testing and not big-scale *temporary* deployment.**
 
 ### Why?
 
